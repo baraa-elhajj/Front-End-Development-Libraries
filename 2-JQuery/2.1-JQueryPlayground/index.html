@@ -20,9 +20,53 @@
     <script>
         // Make sure to add this function so the code doesn't run before the page finishes loading.
         $(document).ready(function () {
-            $("button").addClass("animate__animated animate__bounce");
-            $(".well").addClass("animate__animated animate__shakeX");
-            $("#target3").addClass("animate__animated animate__fadeOut");
+            // $("button").addClass("animate__animated animate__bounce");
+            // $(".well").addClass("animate__animated animate__shakeX");
+            // $("#target3").addClass("animate__animated animate__fadeOut");
+
+            // $("button").addClass("animated");
+            // $(".btn").addClass("shake");
+
+            // Add class
+            $("#target1").addClass("btn-primary");
+
+            // Remove class
+            $("button").removeClass("btn-default");
+
+            // Change css
+            $("#target1").css("color", "red");
+
+            // Change properties
+            $("#target1").prop("disabled", true);
+
+            // Change HTML tags
+            $("#target4").html("<em>#target4</em>");
+
+            // Change text
+            $("#target5").html("changed #target5");
+
+            // Remove element
+            $("#target3").remove();
+
+            // Move element
+            $("#target2").appendTo("#right-well");
+
+            // Copy element
+            $("#target6").clone().appendTo("#left-well");
+
+            // Access parent
+            $("#target1").parent().css("background-color", "yellow");
+
+            // Access children
+            $("#right-well").children().css("color", "orange");
+
+            // Access nth child
+            $(".target:nth-child(2)").addClass("animate__animated animate__bounce");
+
+            // Access odd-even elements
+            $(".target:even").addClass("animate__animated animate__shakeX");
+
+            // $("body").addClass("animate__animated animate__hinge");
         });
     </script>
     <!-- Code below this line should not be changed -->

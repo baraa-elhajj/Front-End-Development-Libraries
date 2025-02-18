@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "sources": [
-        "styles.scss",
-        "styles.css"
-    ],
-    "names": [],
-    "mappings": "AAEA;EACI,kBAAA;ACDJ;;ADIA;;EAEI,UARS;ACOb;;ADMI;EACI,kBAAA;EACA,WAAA;ACHR;ADMI;EACI,eAAA;ACJR",
-    "file": "styles.css"
-}
+{"version":3,"sources":["styles.scss","styles.css"],"names":[],"mappings":"AAEA;EACI,kBAAA;ACDJ;;ADIA;;EAEI,UARS;ACOb;;ADMI;EACI,kBAAA;EACA,WAAA;ACHR;ADMI;EACI,eAAA;ACJR","file":"styles.css"}

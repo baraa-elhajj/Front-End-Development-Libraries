@@ -4,6 +4,24 @@
     background-color: $bg-color;
 }
 
+@mixin border-stroke($val) {
+    @if $val =="light" {
+        border: 1px solid black;
+    }
+
+    @else if $val =="medium" {
+        border: 3px solid black;
+    }
+
+    @else if $val =="heavy" {
+        border: 6px solid black;
+    }
+
+    @else {
+        border: none;
+    }
+}
+
 #square {
     @include shape(50px, 50px, red);
 }
@@ -14,4 +32,11 @@
 
 #rect-b {
     @include shape(50px, 100px, orange);
+}
+
+#box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    @include border-stroke(heavy);
 }

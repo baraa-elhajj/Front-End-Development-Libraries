@@ -14,4 +14,11 @@
   width: 50px;
   height: 100px;
   background-color: orange;
+}
+
+#box {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border: 6px solid black;
 }/*# sourceMappingURL=styles.css.map */

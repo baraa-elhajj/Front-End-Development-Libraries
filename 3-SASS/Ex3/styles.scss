@@ -1,0 +1,6 @@
+// The keyword "through" includes the ending index while "to" does not include it
+@for $j from 1 through 5 {
+    .text-#{$j} {
+        font-size: 15px * $j;
+    }
+}

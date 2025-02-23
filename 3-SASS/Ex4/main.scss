@@ -1,0 +1,8 @@
+/* The main scss file */
+
+@import 'mixins';
+
+#box {
+    @include shape(150px, 150px, red);
+    @include border-stroke(heavy);
+}

@@ -1,6 +1,28 @@
-// The keyword "through" includes the ending index while "to" does not include it
+// When using @for, the keyword "through" includes the ending index while "to" does not include it.
 @for $j from 1 through 5 {
     .text-#{$j} {
         font-size: 15px * $j;
     }
+}
+
+// We can do the same thing using @while
+// $i: 1;
+// @while $i <=5 {
+//     .text-#{$i} {
+//         font-size: 15px * $i;
+//     }
+
+//     $i: $i + 1;
+// }
+
+// @each goes through the given set of elements
+@each $color in blue, black, red {
+    .#{$color}-bg {
+        background-color: $color;
+    }
+}
+
+div {
+    height: 200px;
+    width: 200px;
 }

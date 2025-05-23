@@ -1,8 +1,8 @@
-/* The main scss file */
-/* A partial scss file for mixins */
 #box {
   width: 150px;
   height: 150px;
   background-color: red;
   border: 6px solid black;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */

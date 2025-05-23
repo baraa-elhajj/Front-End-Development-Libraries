@@ -1,0 +1,16 @@
+// "%" is a placeholder selector. Only appears in the output if extended.
+%message {
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.success {
+    @extend %message;
+    border-color: green;
+}
+
+.error {
+    @extend %message;
+    border-color: red;
+}

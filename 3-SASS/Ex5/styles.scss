@@ -8,6 +8,7 @@ h3 {
     margin: 0 auto;
 }
 
+// "@extend" used to share the exact same styles. Always appears in the output.
 .info-important {
     @extend .info;
     background-color: magenta;

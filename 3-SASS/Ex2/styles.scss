@@ -1,3 +1,5 @@
+// @mixin is a reusable block of CSS code similar to a function. 
+// Used by calling "@include" followed by the mixin name.
 @mixin shape($w, $h, $bg-color) {
     width: $w;
     height: $h;
